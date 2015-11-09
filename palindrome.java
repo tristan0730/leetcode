@@ -16,7 +16,6 @@ public class Solution {
         }
         return result;
     }
-    // this expand at a certain index to check longest palindrome at each postion
     public String exp(String s, int l, int r){
         while(l>=0&&r<s.length()){
             if(s.charAt(l)==s.charAt(r)){
